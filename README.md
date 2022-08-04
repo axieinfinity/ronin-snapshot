@@ -1,5 +1,5 @@
 # ronin-snapshot
-Compressed database, block number = `0xf397ef`.
+Compressed database, block number = `0xf4086f`.
 
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
@@ -7,13 +7,13 @@ Compressed database, block number = `0xf397ef`.
 ## Uncompress snapshot
 1. Download chaindata and checksum:
 ```shell
-curl -O -L -k https://storage.googleapis.com/chaindata/chaindata-0xf397ef.tar
-curl -O -L -k https://storage.googleapis.com/chaindata/checksum-0xf397ef.md5
-md5sum -c checksum-0xf397ef.md5
+curl -O -L -k https://storage.googleapis.com/chaindata/chaindata-0xf4086f.tar
+curl -O -L -k https://storage.googleapis.com/chaindata/checksum-0xf4086f.md5
+md5sum -c checksum-0xf4086f.md5
 ```
 2. Uncompress downloaded files:
 ```shell
-tar -xvf chaindata-0xf397ef.tar
+tar -xvf chaindata-0xf4086f.tar
  ```
 3. Stop bridge and node:
 ```shell
