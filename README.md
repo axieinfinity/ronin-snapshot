@@ -27,7 +27,7 @@ docker stop -t 300 node
 mv ~/ronin/chaindata/data/ronin/chaindata ~/ronin/chaindata/data/ronin/chaindata_backup
 mv ~/ronin/chaindata/data/ronin/triecache ~/ronin/chaindata/data/ronin/triecache_backup
 # or
-rm -rf ~/ronin/chaindata
+rm -rf ~/ronin/chaindata/data/ronin/chaindata
 ```
 - Move the new uncompressed directory into the right place:
 ```shell
