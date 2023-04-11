@@ -24,15 +24,15 @@ docker stop -t 300 node
 4. Replace data:
 - Consider backing up chaindata if you have run Ronin node before:
 ```shell
-mv ~/.skymavis/chaindata/data/ronin/chaindata ~/.skymavis/chaindata/data/ronin/chaindata_backup
-mv ~/.skymavis/chaindata/data/ronin/triecache ~/.skymavis/chaindata/data/ronin/triecache_backup
+mv ~/ronin/chaindata/data/ronin/chaindata ~/ronin/chaindata/data/ronin/chaindata_backup
+mv ~/ronin/chaindata/data/ronin/triecache ~/ronin/chaindata/data/ronin/triecache_backup
 # or
-rm -rf ~/.skymavis/chaindata
+rm -rf ~/ronin/chaindata
 ```
 - Move the new uncompressed directory into the right place:
 ```shell
-mkdir -p ~/.skymavis/chaindata/data/ronin
-mv chaindata ~/.skymavis/chaindata/data/ronin
+mkdir -p ~/ronin/chaindata/data/ronin
+mv chaindata ~/ronin/chaindata/data/ronin
 ```
 
 5. Restart Ronin services:
