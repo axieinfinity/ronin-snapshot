@@ -4,6 +4,7 @@ Compressed database, block number = `0x1b29691`.
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
 - Install the [zstd](https://github.com/facebook/zstd) on your machine.
+- Install the [tmux](https://github.com/tmux/tmux/wiki/Installing) for long time process operation.
 
 ## Uncompress snapshot
 
@@ -13,7 +14,7 @@ Step 1: Preparation
 
 Step 2: Download & Uncompress
 - Copy the above snapshot URL.
-- Download:  `wget -O chaindata.tar.zst  "<paste snapshot URL here>"` . It will take one or two hours to download the snapshot, you can put it in the backgroud by `nohup wget -O chaindata.tar.gz  "<paste snapshot URL here>" &`
+- Download:  `wget -O chaindata.tar.zst  "<paste snapshot URL here>"` . It will take one or two hours to download the snapshot, you can put it in to the `tmux` by `wget -O chaindata.tar.gz  "<paste snapshot URL here>"`
 
 
 * [OPTIONAL] If you need to speedup download, just use `aria2c`
@@ -21,7 +22,7 @@ Step 2: Download & Uncompress
 aria2c -o chaindata.tar.zst -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/{filename}
 ```
 
-But aria2c may fail sometimes, you need to rerun the download command. To make it convient, you can use the following script, save it into file `download.sh` and run: `nohup ./download.sh "<paste snapshot URL here>" <your dir> &`
+But aria2c may fail sometimes, you need to rerun the download command. To make it convient, you can use the following script, save it into file `download.sh`, open new `tmux` session and run: ` ./download.sh "<paste snapshot URL here>" <your dir>`
 ```
 #!/bin/bash
 if [ $# -eq 1 ]; then
@@ -82,7 +83,7 @@ user    1m57.320s
 sys     2m28.624s
 ```
 
-- Uncompress: `tar -I zstd -xvf chaindata.tar.zst`. It will take more than one hours to uncompress. You can put it in the background by `nohup tar -I zst -xvf chaindata.tar.zst &`
+- Uncompress: `tar -I zstd -xvf chaindata.tar.zst`. It will take more than 20 min to uncompress. You can put it in the `tmux` session and run command `tar -I zst -xvf chaindata.tar.zst`
 - You can combine the above steps by running a script:
 
 ```
