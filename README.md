@@ -1,5 +1,5 @@
 # ronin-snapshot
-Compressed database, block number = `0x1b29691`.
+Compressed database, block number = `0x1b0c321`.
 
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
