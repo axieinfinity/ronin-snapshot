@@ -22,7 +22,7 @@ Step 2: Download & Uncompress
 - Download:  `wget -O chaindata.tar.zst  "<paste snapshot URL here>"` . It will take one or two hours to download the snapshot, you can put it in to the `tmux` by `wget -O chaindata.tar.gz  "<paste snapshot URL here>"`
 
 
-* [OPTIONAL] If you need to speedup download, just use `aria2c`
+* [OPTIONAL] If you need to speedup download, just use [aria2c](https://github.com/aria2/aria2)
 ```
 aria2c -o chaindata.tar.zst -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/{filename}
 ```
