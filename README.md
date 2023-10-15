@@ -1,5 +1,5 @@
 # ronin-snapshot
-Compressed database, block number = `0x1b2850b`.
+Compressed database, block number = `0x1b2f582`.
 
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
@@ -8,7 +8,7 @@ Compressed database, block number = `0x1b2850b`.
 
 ### Endpoint
 
-- mainnet: [chaindata-0x1b2850b.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b2850b.tar.zst)
+- mainnet: [chaindata-0x1b2f582.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b2f582.tar.zst)
 
 
 ### Usage
