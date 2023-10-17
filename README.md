@@ -1,6 +1,6 @@
 # ronin-snapshot
 
-Compressed database, block number = `0x1b2f582`.
+Compressed database, block number = `0x1b3d682`.
 
 
 ## Prerequisites
@@ -11,7 +11,7 @@ Compressed database, block number = `0x1b2f582`.
 
 ### Endpoint
 
-- mainnet: [chaindata-0x1b2f582.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b2f582.tar.zst)
+- mainnet: [chaindata-0x1b3d682.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b3d682.tar.zst)
 
 
 ### Usage
