@@ -1,8 +1,5 @@
 # ronin-snapshot
 
-Compressed database, block number = `0x1b9984f`.
-
-
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
 - Install the [zstd](https://github.com/facebook/zstd) on your machine.
@@ -12,7 +9,7 @@ Compressed database, block number = `0x1b9984f`.
 ### Endpoint
 
 - mainnet: [chaindata-0x1b9984f.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1b9984f.tar.zst)
-
+- testnet: [testnet-chaindata-0x14abb88.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-0x14abb88.tar.zst)
 
 ### Usage
 
