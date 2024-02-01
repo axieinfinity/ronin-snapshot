@@ -1,5 +1,8 @@
 # ronin-snapshot
 
+## Note:
+- We capture a comprehensive snapshot of **full node data**, including pruned state data, once per week.
+
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
 - Install the [zstd](https://github.com/facebook/zstd) on your machine.
