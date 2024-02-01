@@ -1,4 +1,4 @@
-# ronin-snapshot
+# Ronin Snapshot
 
 ## Prerequisites
 - Your free disk space has more than twice the size of the snapshot.
