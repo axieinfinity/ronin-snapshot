@@ -1,6 +1,6 @@
 # ronin-snapshot
 
-## Note:
+## Note
 - We capture a comprehensive snapshot of **full node data**, including pruned state data, once per week.
 
 ## Prerequisites
