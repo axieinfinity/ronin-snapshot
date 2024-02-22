@@ -11,7 +11,7 @@
 
 ### Endpoint
 
-- mainnet: [chaindata-20240215.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20240215.tar.zst) - md5: 9602532fa52f2e68a89d0269c7ef4b47
+- mainnet: [chaindata-20240222.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20240222.tar.zst) - md5: 259c64b6393a6e5bceb9930062eca7cf
 - testnet: [testnet-chaindata-20240220.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-20240220.tar.zst) - md5: 390dfa12f343800e862d751661278a77
 
 ### Usage
