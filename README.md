@@ -11,6 +11,10 @@
 
 ### Endpoint
 
+Here is a snapshots of HBSS with leveldb.
+
+#### Hash-Base-State-Scheme:
+
 - mainnet: [chaindata-20240222.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20240222.tar.zst) - md5: 259c64b6393a6e5bceb9930062eca7cf
 - testnet: [testnet-chaindata-20240220.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-20240220.tar.zst) - md5: 390dfa12f343800e862d751661278a77
 
@@ -110,7 +114,12 @@ Step 3: Install the node
 - Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node)
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
-### Archive mainnet: update every 3 months
+### Chaindata snapshot - Archive Node:
+
+#### Endpoint (Mainnet) - update monthly:
+
+Storage size: 6.8TB - we split it into 500GB for each file.
+
 - archive-mainnet-000: [archive-mainnet-chaindata-20240220.tar.zst-000](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-000) - md5: d790403804d40371047dcf228ac8fd01
 - archive-mainnet-001: [archive-mainnet-chaindata-20240220.tar.zst-001](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-001) - md5: 71f1bb061e5fc2436e57ce783c164c5f
 - archive-mainnet-002: [archive-mainnet-chaindata-20240220.tar.zst-002](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-002) - md5: 25e78ab8b30762d54331ca1b90536282
@@ -127,10 +136,18 @@ Step 3: Install the node
 - archive-mainnet-013: [archive-mainnet-chaindata-20240220.tar.zst-013](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-013) - md5: d0c9ca7bbe5f8f3b4f777f8f423fda2c
 
 
-### Usage
-Download && Concatenate && Uncompress
+#### Usage
+- Download && Concatenate && Uncompress:
+
 ```shell
-wget -O archive-mainnet-chaindata-20240220.tar.zst-xxx  "<paste snapshot URL here>" 
-cat "archive-mainnet-chaindata-20240125.tar.zst-"* > combined_compressed_file.tar.zst
+for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-$i"; done
+cat "archive-mainnet-chaindata-20240125.tar.zst-"* > chaindata.tar.zst
 tar -I zstd -xvf chaindata.tar.zst
+```
+
+- If you do not need to store the archive for use with other nodes, you may also extract it while joining files to save time and disk space:
+
+```shell
+for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-$i"; done
+cat "archive-mainnet-chaindata-20240125.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
