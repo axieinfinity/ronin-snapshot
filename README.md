@@ -112,22 +112,20 @@ Step 3: Install the node
 
 ### Endpoint(Mainnet): update every 3 months
 - archive-mainnet-000: [archive-mainnet-chaindata-20240220.tar.zst-000](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-000) - md5: d790403804d40371047dcf228ac8fd01
-- archive-mainnet-010: [archive-mainnet-chaindata-20240220.tar.zst-010](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-010) - md5: e71731679c5ef96076f330d925f6adff
-- archive-mainnet-012: [archive-mainnet-chaindata-20240220.tar.zst-012](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-012) - md5: b0a207fda18ce09c6aa41bb1829deb53
-- archive-mainnet-002: [archive-mainnet-chaindata-20240220.tar.zst-002](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-002) - md5: 25e78ab8b30762d54331ca1b90536282
-- archive-mainnet-005: [archive-mainnet-chaindata-20240220.tar.zst-005](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-005) - md5: 883f53e66cf1775d29ac114e03a0d67a
-- archive-mainnet-008: [archive-mainnet-chaindata-20240220.tar.zst-008](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-008) - md5: 3fdf7392d092d67a3df64e48018abb14
 - archive-mainnet-001: [archive-mainnet-chaindata-20240220.tar.zst-001](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-001) - md5: 71f1bb061e5fc2436e57ce783c164c5f
-- archive-mainnet-004: [archive-mainnet-chaindata-20240220.tar.zst-004](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-004) - md5: 65aea03ff022e784adeb81cc3028c87a
-- archive-mainnet-011: [archive-mainnet-chaindata-20240220.tar.zst-011](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-011) - md5: f2b46bd18644b958bd2137b103198c7f
-- archive-mainnet-009: [archive-mainnet-chaindata-20240220.tar.zst-009](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-009) - md5: bf59656e380acde4b0d64e623bde6f2b
-- archive-mainnet-013: [archive-mainnet-chaindata-20240220.tar.zst-013](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-013) - md5: d0c9ca7bbe5f8f3b4f777f8f423fda2c
+- archive-mainnet-002: [archive-mainnet-chaindata-20240220.tar.zst-002](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-002) - md5: 25e78ab8b30762d54331ca1b90536282
 - archive-mainnet-003: [archive-mainnet-chaindata-20240220.tar.zst-003](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-003) - md5: be895d287fcb945d42c113e1eccac7df
+- archive-mainnet-004: [archive-mainnet-chaindata-20240220.tar.zst-004](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-004) - md5: 65aea03ff022e784adeb81cc3028c87a
+- archive-mainnet-005: [archive-mainnet-chaindata-20240220.tar.zst-005](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-005) - md5: 883f53e66cf1775d29ac114e03a0d67a
 - archive-mainnet-006: [archive-mainnet-chaindata-20240220.tar.zst-006](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-006) - md5: 7cf7f925c066683728ae966fdad9f723
 - archive-mainnet-007: [archive-mainnet-chaindata-20240220.tar.zst-007](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-007) - md5: 3645bf6bc8102254237eab0a3eb2c503
+- archive-mainnet-008: [archive-mainnet-chaindata-20240220.tar.zst-008](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-008) - md5: 3fdf7392d092d67a3df64e48018abb14
+- archive-mainnet-009: [archive-mainnet-chaindata-20240220.tar.zst-009](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-009) - md5: bf59656e380acde4b0d64e623bde6f2b
+- archive-mainnet-010: [archive-mainnet-chaindata-20240220.tar.zst-010](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-010) - md5: e71731679c5ef96076f330d925f6adff
+- archive-mainnet-011: [archive-mainnet-chaindata-20240220.tar.zst-011](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-011) - md5: f2b46bd18644b958bd2137b103198c7f
+- archive-mainnet-012: [archive-mainnet-chaindata-20240220.tar.zst-012](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-012) - md5: b0a207fda18ce09c6aa41bb1829deb53
+- archive-mainnet-013: [archive-mainnet-chaindata-20240220.tar.zst-013](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst-013) - md5: d0c9ca7bbe5f8f3b4f777f8f423fda2c
 
-### Endpoint (Mainnet full data) [from: 0 - to: 32.362.228]:
-- archive-mainnet: [archive-mainnet-chaindata-20240220.tar.zst](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240220.tar.zst) - md5: 
 
 ### Usage
 Download && Concatenate && Uncompress
