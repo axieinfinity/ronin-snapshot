@@ -116,7 +116,7 @@ Step 3: Install the node
 
 ### Chaindata snapshot - Archive Node:
 
-#### Archive mainnet: update every 3 months:
+#### Endpoint (Mainnet) - update monthly:
 
 Storage size: 6.8TB - we split it into 500GB for each file.
 
