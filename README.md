@@ -130,7 +130,7 @@ Step 3: Install the node
 ### Usage
 Download && Concatenate && Uncompress
 ```shell
-aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[]
+wget -O archive-mainnet-chaindata-20240220.tar.zst-xxx  "<paste snapshot URL here>" 
 cat "archive-mainnet-chaindata-20240125.tar.zst-"* > combined_compressed_file.tar.zst
 tar -I zstd -xvf chaindata.tar.zst
 ```
