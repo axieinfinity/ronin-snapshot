@@ -153,6 +153,7 @@ cat "archive-mainnet-chaindata-20240125.tar.zst-"* | tar -I zstd -xvf - -C chain
 ```
 
 
+
 ### Endpoint(Mainnet): update every 3 months
 - archive-mainnet-000: [archive-mainnet-chaindata-20240306.tar.zst-000](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-000)
 - archive-mainnet-001: [archive-mainnet-chaindata-20240306.tar.zst-001](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-001)
@@ -168,13 +169,11 @@ cat "archive-mainnet-chaindata-20240125.tar.zst-"* | tar -I zstd -xvf - -C chain
 - archive-mainnet-011: [archive-mainnet-chaindata-20240306.tar.zst-011](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-011)
 - archive-mainnet-012: [archive-mainnet-chaindata-20240306.tar.zst-012](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-012)
 - archive-mainnet-013: [archive-mainnet-chaindata-20240306.tar.zst-013](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-013)
-- archive-mainnet-014: [archive-mainnet-chaindata-20240306.tar.zst-014](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-014)
-- archive-mainnet-015: [archive-mainnet-chaindata-20240306.tar.zst-015](https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-015)
 
 ### Usage
 Download && Concatenate && Uncompress
 ```shell
-aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[]
+aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[]
 cat "archive-mainnet-chaindata-20240125.tar.zst-"* > combined_compressed_file.tar.zst
 tar -I zstd -xvf chaindata.tar.zst
 ```
