@@ -151,3 +151,30 @@ tar -I zstd -xvf chaindata.tar.zst
 for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-$i"; done
 cat "archive-mainnet-chaindata-20240125.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
+
+### Endpoint(Mainnet): update every 3 months
+- archive-mainnet-004: [archive-mainnet-chaindata-20240306.tar.zst-004](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-004) - md5: 
+- archive-mainnet-005: [archive-mainnet-chaindata-20240306.tar.zst-005](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-005) - md5: 
+- archive-mainnet-001: [archive-mainnet-chaindata-20240306.tar.zst-001](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-001) - md5: 
+- archive-mainnet-006: [archive-mainnet-chaindata-20240306.tar.zst-006](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-006) - md5: 
+- archive-mainnet-007: [archive-mainnet-chaindata-20240306.tar.zst-007](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-007) - md5: 
+- archive-mainnet-009: [archive-mainnet-chaindata-20240306.tar.zst-009](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-009) - md5: 
+- archive-mainnet-011: [archive-mainnet-chaindata-20240306.tar.zst-011](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-011) - md5: 
+- archive-mainnet-000: [archive-mainnet-chaindata-20240306.tar.zst-000](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-000) - md5: 
+- archive-mainnet-008: [archive-mainnet-chaindata-20240306.tar.zst-008](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-008) - md5: 
+- archive-mainnet-012: [archive-mainnet-chaindata-20240306.tar.zst-012](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-012) - md5: 
+- archive-mainnet-013: [archive-mainnet-chaindata-20240306.tar.zst-013](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-013) - md5: 
+- archive-mainnet-003: [archive-mainnet-chaindata-20240306.tar.zst-003](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-003) - md5: 
+- archive-mainnet-010: [archive-mainnet-chaindata-20240306.tar.zst-010](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-010) - md5: 
+- archive-mainnet-002: [archive-mainnet-chaindata-20240306.tar.zst-002](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst-002) - md5: 
+
+### Endpoint (Mainnet full data) [from: 0 - to: 844.331.395]:
+- archive-mainnet: [archive-mainnet-chaindata-20240306.tar.zst](https://storage.googleapis.com/sm-ronin-snapshot/archive-chaindata/archive-mainnet-chaindata-20240306.tar.zst) - md5: 
+
+### Usage
+Download && Concatenate && Uncompress
+```shell
+aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[]
+cat "archive-mainnet-chaindata-20240125.tar.zst-"* > combined_compressed_file.tar.zst
+tar -I zstd -xvf chaindata.tar.zst
+```
