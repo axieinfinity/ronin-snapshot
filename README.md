@@ -140,14 +140,14 @@ Storage size: 6.8TB - we split it into 500GB for each file.
 - Download && Concatenate && Uncompress:
 
 ```shell
-for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-$i"; done
-cat "archive-mainnet-chaindata-20240125.tar.zst-"* > chaindata.tar.zst
+for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-$i"; done
+cat "archive-mainnet-chaindata-20240306.tar.zst-"* > chaindata.tar.zst
 tar -I zstd -xvf chaindata.tar.zst
 ```
 
 - If you do not need to store the archive for use with other nodes, you may also extract it while joining files to save time and disk space:
 
 ```shell
-for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240220.tar.zst-$i"; done
-cat "archive-mainnet-chaindata-20240125.tar.zst-"* | tar -I zstd -xvf - -C chaindata
+for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-$i"; done
+cat "archive-mainnet-chaindata-20240306.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
