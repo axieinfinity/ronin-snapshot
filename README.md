@@ -148,6 +148,6 @@ tar -I zstd -xvf chaindata.tar.zst
 - If you do not need to store the archive for use with other nodes, you may also extract it while joining files to save time and disk space:
 
 ```shell
-for i in {000..013}; do wget "https://storage.googleapis.com/sm-ronin-snapshot/archive-mainnet-chaindata-20240306.tar.zst-$i"; done
+for i in {000..013}; do wget "https://ss.roninchain.com/archive-mainnet-chaindata-20240306.tar.zst-$i"; done
 cat "archive-mainnet-chaindata-20240306.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
