@@ -134,9 +134,9 @@ Storage size: 8.3TB - we split it into 500GB for each file.
 - archive-mainnet-011: [archive-mainnet-chaindata-20240606.tar.zst-011](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-011)
 - archive-mainnet-012: [archive-mainnet-chaindata-20240606.tar.zst-012](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-012)
 - archive-mainnet-013: [archive-mainnet-chaindata-20240606.tar.zst-013](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-013)
-- archive-mainnet-014: [archive-mainnet-chaindata-20240606.tar.zst-013](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-014)
-- archive-mainnet-015: [archive-mainnet-chaindata-20240606.tar.zst-013](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-015)
-- archive-mainnet-016: [archive-mainnet-chaindata-20240606.tar.zst-013](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-016)
+- archive-mainnet-014: [archive-mainnet-chaindata-20240606.tar.zst-014](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-014)
+- archive-mainnet-015: [archive-mainnet-chaindata-20240606.tar.zst-015](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-015)
+- archive-mainnet-016: [archive-mainnet-chaindata-20240606.tar.zst-016](https://ss.roninchain.com/archive-mainnet-chaindata-20240606.tar.zst-016)
 
 
 
