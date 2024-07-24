@@ -16,7 +16,7 @@ Here is a snapshots of HBSS with leveldb.
 #### Hash-Base-State-Scheme:
 
 - mainnet: [chaindata-20240723.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20240723.tar.zst) - md5: 8894766b95a2b2ed8c77c2403096a1f3
-- testnet: [testnet-chaindata-20240723.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-20240723.tar.zst) - md5: 7c015981ddbafc9865d82ab29c9d4a9c
+- testnet: [testnet-chaindata-20240724.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-20240724.tar.zst) - md5: 84dc577fe9d706908443b941f2a7f820
 
 ### Usage
 
