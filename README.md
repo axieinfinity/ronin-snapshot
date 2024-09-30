@@ -115,6 +115,7 @@ Step 3: Install the node
 - Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node)
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
+
 ### Chaindata snapshot - Archive Node:
 
 #### Endpoint (Mainnet):
@@ -142,7 +143,11 @@ Storage size: 9.8TB - we split it into 500GB for each file.
 - archive-mainnet-018: [archive-mainnet-chaindata-20240909.tar.zst-018](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-018)
 - archive-mainnet-019: [archive-mainnet-chaindata-20240909.tar.zst-019](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-019)
 
+#### Endpoint (Testnet):
 
+Storage size: 678G (after decompress)
+
+- archive-testnet: [archive-testnet-chaindata-20240929.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20240929.tar.zst)
 
 #### Usage
 - Download && Concatenate && Uncompress:
