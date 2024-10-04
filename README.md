@@ -22,7 +22,8 @@ Here is a snapshots of HBSS with pebbledb.
 
 #### Hash-Base-State-Scheme:
 
-- mainnet: [chaindata-20241003.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20241003.tar.zst) - md5: 7c2441cd8fa97b0fc260957ed2a9a923 - Data Size: 377G, Inspect Data: [Inspect Link](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20241003.txt)
+#### Mainnet
+- [pebble-chaindata-20241003.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebble-chaindata-20241003.tar.zst) - md5: 46e1513ee5e4aa62695e63c2b63e8085
 
 ### Usage
 
@@ -121,8 +122,7 @@ Step 3: Install the node
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
 
-### Chaindata snapshot - Archive Node:
-
+### Chaindata snapshot - Archive Node(Leveldb)
 #### Endpoint (Mainnet):
 
 Storage size: 9.8TB - we split it into 500GB for each file.
