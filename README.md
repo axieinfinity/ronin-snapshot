@@ -152,7 +152,7 @@ Storage size: 9.8TB - we split it into 500GB for each file.
 
 Storage size: 678G (after decompress)
 
-- archive-testnet: [archive-testnet-chaindata-20240929.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20240929.tar.zst)
+- archive-testnet: [archive-testnet-chaindata-20241030.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20241030.tar.zst)
 
 #### Usage
 - Download && Concatenate && Uncompress:
