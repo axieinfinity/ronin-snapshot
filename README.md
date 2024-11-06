@@ -23,7 +23,7 @@ Here is a snapshots of HBSS with pebbledb.
 #### Hash-Base-State-Scheme:
 
 #### Mainnet
-- [pebble-chaindata-20241106.tar.zstt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebble-chaindata-20241106.tar.zst) - md5: 0b5804a8bc438e84b3c9f4363ce1a416
+- [pebble-chaindata-20241106.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebble-chaindata-20241106.tar.zst) - md5: 0b5804a8bc438e84b3c9f4363ce1a416
 
 ### Usage
 
