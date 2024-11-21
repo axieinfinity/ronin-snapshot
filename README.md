@@ -11,19 +11,28 @@
 
 ### Endpoint
 
-Here is a snapshots of HBSS with leveldb.
+Here are snapshots of HBSS with leveldb and pebbledb.
 
 #### Hash-Base-State-Scheme:
 
-- mainnet: [chaindata-20241120.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20241120.tar.zst) - md5: b7cf650264eeaa8e0988e1cdaca5b176 - Data Size: 408G, Inspect Data: [Inspect Link](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20241120.txt)
-- testnet: [testnet-chaindata-20241120.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-20241120.tar.zst) - md5: 72ecbfbb3e2dba258a06241e1fcf98ca - Data Size: 43G, Inspect Data: [Inspect Link](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-inspect-data-20241120.txt)
+- **Mainnet LevelDB**: [chaindata-20241120.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20241120.tar.zst)
+  - MD5: b7cf650264eeaa8e0988e1cdaca5b176
+  - Size: 408G
+  - Inspect File: [inspect-data-20241120.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20241120.txt)
 
-Here is a snapshots of HBSS with pebbledb.
+- **Mainnet PebbleDB**: [pebble-chaindata-20241106.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebble-chaindata-20241106.tar.zst)
+  - MD5: 0b5804a8bc438e84b3c9f4363ce1a416
+  - Size: 412G
 
-#### Hash-Base-State-Scheme:
 
-#### Mainnet
-- [pebble-chaindata-20241106.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebble-chaindata-20241106.tar.zst) - md5: 0b5804a8bc438e84b3c9f4363ce1a416
+- **Testnet LevelDB**: [leveldb-testnet-chaindata-20241121.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/leveldb-testnet-chaindata-20241121.tar.zst)
+  - MD5: 5af959846740f982efb67fd3b60dd516
+  - Size: 43G
+
+  - Inspect File: [testnet-inspect-data-20241121.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-inspect-data-20241121.txt)
+  
+
+
 
 ### Usage
 
@@ -122,37 +131,54 @@ Step 3: Install the node
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
 
-### Chaindata snapshot - Archive Node(Leveldb)
+### Chaindata snapshot - Archive Node (Leveldb)
 #### Endpoint (Mainnet):
 
 Storage size: 9.8TB - we split it into 500GB for each file.
 
-- archive-mainnet-000: [archive-mainnet-chaindata-20240909.tar.zst-000](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-000)
-- archive-mainnet-001: [archive-mainnet-chaindata-20240909.tar.zst-001](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-001)
-- archive-mainnet-002: [archive-mainnet-chaindata-20240909.tar.zst-002](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-002)
-- archive-mainnet-003: [archive-mainnet-chaindata-20240909.tar.zst-003](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-003)
-- archive-mainnet-004: [archive-mainnet-chaindata-20240909.tar.zst-004](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-004)
-- archive-mainnet-005: [archive-mainnet-chaindata-20240909.tar.zst-005](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-005)
-- archive-mainnet-006: [archive-mainnet-chaindata-20240909.tar.zst-006](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-006)
-- archive-mainnet-007: [archive-mainnet-chaindata-20240909.tar.zst-007](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-007)
-- archive-mainnet-008: [archive-mainnet-chaindata-20240909.tar.zst-008](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-008)
-- archive-mainnet-009: [archive-mainnet-chaindata-20240909.tar.zst-009](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-009)
-- archive-mainnet-010: [archive-mainnet-chaindata-20240909.tar.zst-010](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-010)
-- archive-mainnet-011: [archive-mainnet-chaindata-20240909.tar.zst-011](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-011)
-- archive-mainnet-012: [archive-mainnet-chaindata-20240909.tar.zst-012](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-012)
-- archive-mainnet-013: [archive-mainnet-chaindata-20240909.tar.zst-013](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-013)
-- archive-mainnet-014: [archive-mainnet-chaindata-20240909.tar.zst-014](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-014)
-- archive-mainnet-015: [archive-mainnet-chaindata-20240909.tar.zst-015](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-015)
-- archive-mainnet-016: [archive-mainnet-chaindata-20240909.tar.zst-016](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-016)
-- archive-mainnet-017: [archive-mainnet-chaindata-20240909.tar.zst-017](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-017)
-- archive-mainnet-018: [archive-mainnet-chaindata-20240909.tar.zst-018](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-018)
-- archive-mainnet-019: [archive-mainnet-chaindata-20240909.tar.zst-019](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-019)
 
-#### Endpoint (Testnet):
+- [archive-mainnet-chaindata-20240909.tar.zst-000](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-000)
 
-Storage size: 678G (after decompress)
+- [archive-mainnet-chaindata-20240909.tar.zst-001](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-001)
 
-- archive-testnet: [archive-testnet-chaindata-20241030.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20241030.tar.zst)
+- [archive-mainnet-chaindata-20240909.tar.zst-002](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-002)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-003](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-003)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-004](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-004)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-005](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-005)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-006](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-006)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-007](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-007)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-008](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-008)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-009](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-009)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-010](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-010)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-011](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-011)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-012](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-012)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-013](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-013)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-014](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-014)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-015](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-015)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-016](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-016)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-017](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-017)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-018](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-018)
+
+- [archive-mainnet-chaindata-20240909.tar.zst-019](https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-019)
+
+
+
 
 #### Usage
 - Download && Concatenate && Uncompress:
@@ -169,3 +195,4 @@ tar -I zstd -xvf chaindata.tar.zst
 for i in {000..019}; do wget "https://ss.roninchain.com/archive-mainnet-chaindata-20240909.tar.zst-$i"; done
 cat "archive-mainnet-chaindata-20240909.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
+
