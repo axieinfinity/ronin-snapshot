@@ -15,10 +15,10 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 
 #### Hash-Base-State-Scheme:
 
-- **Mainnet LevelDB**: [chaindata-20241210.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20241210.tar.zst)
-  - MD5: 201c73808e8329f273c8de42a504ec7b
-  - Size: 417G
-  - Inspect File: [inspect-data-20241210.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20241210.txt)
+- **Mainnet LevelDB**: [chaindata-20241211.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20241211.tar.zst)
+  - MD5: 80e8ce22461c082bb724c6aeee1a9d6c
+  - Size: 410G
+  - Inspect File: [inspect-data-20241211.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20241211.txt)
 
 - **Mainnet PebbleDB**: [pebbledb-chaindata-20241210.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20241210.tar.zst)
   - MD5: 98c912a8027a32a79fce4693f22502f4
@@ -37,7 +37,7 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 ### Usage
 
 Step 1: Preparation
-- Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node).
+- Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/validators/setup/overview#hardware-requirements).
 - A disk with enough free storage, at least twice the size of the snapshot.
 
 Step 2: Download & Uncompress
@@ -127,7 +127,7 @@ wget -q -O - <snapshot URL> | tar -I zstd -xvf -
 
 
 Step 3: Install the node
-- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node)
+- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/rpc/mainnet-rpc)
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
 
@@ -137,51 +137,51 @@ Step 3: Install the node
 Storage size: 12T - we split it into 500GB for each file.
 
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-000](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-000)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-000](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-000)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-001](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-001)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-001](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-001)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-002](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-002)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-002](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-002)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-003](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-003)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-003](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-003)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-004](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-004)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-004](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-004)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-005](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-005)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-005](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-005)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-006](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-006)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-006](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-006)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-007](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-007)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-007](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-007)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-008](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-008)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-008](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-008)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-009](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-009)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-009](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-009)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-010](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-010)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-010](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-010)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-011](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-011)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-011](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-011)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-012](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-012)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-012](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-012)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-013](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-013)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-013](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-013)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-014](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-014)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-014](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-014)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-015](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-015)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-015](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-015)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-016](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-016)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-016](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-016)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-017](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-017)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-017](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-017)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-018](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-018)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-018](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-018)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-019](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-019)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-019](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-019)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-020](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-020)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-020](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-020)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-021](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-021)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-021](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-021)
 
-- [leveldb-archive-mainnet-chaindata-20241206.tar.zst-022](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-022)
+- [leveldb-archive-mainnet-chaindata-20241205.tar.zst-022](https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-022)
 
 
 
@@ -190,15 +190,15 @@ Storage size: 12T - we split it into 500GB for each file.
 - Download && Concatenate && Uncompress:
 
 ```shell
-for i in {000..022}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-$i"; done
-cat "leveldb-archive-mainnet-chaindata-20241206.tar.zst-"* > chaindata.tar.zst
+for i in {000..022}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-$i"; done
+cat "leveldb-archive-mainnet-chaindata-20241205.tar.zst-"* > chaindata.tar.zst
 tar -I zstd -xvf chaindata.tar.zst
 ```
 
 - If you do not need to store the archive for use with other nodes, you may also extract it while joining files to save time and disk space:
 
 ```shell
-for i in {000..022}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241206.tar.zst-$i"; done
-cat "leveldb-archive-mainnet-chaindata-20241206.tar.zst-"* | tar -I zstd -xvf - -C chaindata
+for i in {000..022}; do wget "https://ss.roninchain.com/leveldb-archive-mainnet-chaindata-20241205.tar.zst-$i"; done
+cat "leveldb-archive-mainnet-chaindata-20241205.tar.zst-"* | tar -I zstd -xvf - -C chaindata
 ```
 
