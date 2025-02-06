@@ -15,10 +15,10 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 
 #### Hash-Base-State-Scheme:
 
-- **Mainnet LevelDB**: [chaindata-20250205.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20250205.tar.zst)
-  - MD5: b2f6998ceadb45d151c2d9b79e3f0100
-  - Size: 434G
-  - Inspect File: [inspect-data-20250205.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250205.txt)
+- **Mainnet LevelDB**: [chaindata-20250206.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20250206.tar.zst)
+  - MD5: 9ce245c3b73097735bb5bf61b601acb9
+  - Size: 438G
+  - Inspect File: [inspect-data-20250206.txt](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/inspect-data-20250206.txt)
 
 - **Mainnet PebbleDB**: [pebbledb-chaindata-20250122.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/pebbledb-chaindata-20250122.tar.zst)
   - MD5: e849516bb9ae6aa2285bb036a87407dd
@@ -37,7 +37,7 @@ Here are snapshots of HBSS with leveldb and pebbledb.
 ### Usage
 
 Step 1: Preparation
-- Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node).
+- Make sure your hardware meets the [suggested requirement](https://docs.roninchain.com/validators/setup/overview#hardware-requirements).
 - A disk with enough free storage, at least twice the size of the snapshot.
 
 Step 2: Download & Uncompress
@@ -127,7 +127,7 @@ wget -q -O - <snapshot URL> | tar -I zstd -xvf -
 
 
 Step 3: Install the node
-- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/docs/node-operators/mainnet/non-validator#install-the-node)
+- Now you can follow steps by steps from here [Install the node ](https://docs.roninchain.com/rpc/mainnet-rpc)
 - This docs is the detail for `6.(Optional) Download the snapshot`
 
 
